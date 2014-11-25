@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API\AddAnimOb.c" />
+    <ClCompile Include="API\AddBob.c" />
+    <ClCompile Include="API\AddFont.c" />
+    <ClCompile Include="API\AddVSprite.c" />
+    <ClCompile Include="API\AllocBitMap.c" />
+    <ClCompile Include="API\AllocDBufInfo.c" />
+    <ClCompile Include="API\AllocRaster.c" />
+    <ClCompile Include="API\AllocSpriteDataA.c" />
+    <ClCompile Include="API\AndRectRegion.c" />
+    <ClCompile Include="API\AndRegionRegion.c" />
+    <ClCompile Include="API\Animate.c" />
+    <ClCompile Include="API\AreaCircle.c" />
+    <ClCompile Include="API\AreaDraw.c" />
+    <ClCompile Include="API\AreaEllipse.c" />
+    <ClCompile Include="API\AreaEnd.c" />
+    <ClCompile Include="API\AreaMove.c" />
+    <ClCompile Include="API\AskFont.c" />
+    <ClCompile Include="API\AskSoftStyle.c" />
+    <ClCompile Include="API\AttachPalExtra.c" />
+    <ClCompile Include="API\AttemptLockLayerRom.c" />
+    <ClCompile Include="API\BestModeIDA.c" />
+    <ClCompile Include="API\BitMapScale.c" />
+    <ClCompile Include="API\BltBitMap.c" />
+    <ClCompile Include="API\BltBitMapRastPort.c" />
+    <ClCompile Include="API\BltClear.c" />
+    <ClCompile Include="API\BltMaskBitMapRastPort.c" />
+    <ClCompile Include="API\BltPattern.c" />
+    <ClCompile Include="API\BltTemplate.c" />
+    <ClCompile Include="API\CalcIVG.c" />
+    <ClCompile Include="API\CBump.c" />
+    <ClCompile Include="API\CEND.c" />
+    <ClCompile Include="API\ChangeExtSpriteA.c" />
+    <ClCompile Include="API\ChangeSprite.c" />
+    <ClCompile Include="API\ChangeVPBitMap.c" />
+    <ClCompile Include="API\ClearEOL.c" />
+    <ClCompile Include="API\ClearRectRegion.c" />
+    <ClCompile Include="API\ClearRegion.c" />
+    <ClCompile Include="API\ClearScreen.c" />
+    <ClCompile Include="API\ClipBlit.c" />
+    <ClCompile Include="API\CloseFont.c" />
+    <ClCompile Include="API\CloseMonitor.c" />
+    <ClCompile Include="API\CMOVE.c" />
+    <ClCompile Include="API\CoerceMode.c" />
+    <ClCompile Include="API\CopySBitMap.c" />
+    <ClCompile Include="API\CWAIT.c" />
+    <ClCompile Include="API\DisownBlitter.c" />
+    <ClCompile Include="API\DisposeRegion.c" />
+    <ClCompile Include="API\DoCollision.c" />
+    <ClCompile Include="API\Draw.c" />
+    <ClCompile Include="API\DrawEllipse.c" />
+    <ClCompile Include="API\DrawGList.c" />
+    <ClCompile Include="API\EraseRect.c" />
+    <ClCompile Include="API\ExtendFont.c" />
+    <ClCompile Include="API\FindColor.c" />
+    <ClCompile Include="API\FindDisplayInfo.c" />
+    <ClCompile Include="API\Flood.c" />
+    <ClCompile Include="API\FontExtent.c" />
+    <ClCompile Include="API\FreeBitMap.c" />
+    <ClCompile Include="API\FreeColorMap.c" />
+    <ClCompile Include="API\FreeCopList.c" />
+    <ClCompile Include="API\FreeCprList.c" />
+    <ClCompile Include="API\FreeDBufInfo.c" />
+    <ClCompile Include="API\FreeGBuffers.c" />
+    <ClCompile Include="API\FreeRaster.c" />
+    <ClCompile Include="API\FreeSprite.c" />
+    <ClCompile Include="API\FreeSpriteData.c" />
+    <ClCompile Include="API\FreeVPortCopLists.c" />
+    <ClCompile Include="API\GetAPen.c" />
+    <ClCompile Include="API\GetBitMapAttr.c" />
+    <ClCompile Include="API\GetBPen.c" />
+    <ClCompile Include="API\GetColorMap.c" />
+    <ClCompile Include="API\GetDisplayInfoData.c" />
+    <ClCompile Include="API\GetDrMd.c" />
+    <ClCompile Include="API\GetExtSpriteA.c" />
+    <ClCompile Include="API\GetGBuffers.c" />
+    <ClCompile Include="API\GetOPen.c" />
+    <ClCompile Include="API\GetRGB32.c" />
+    <ClCompile Include="API\GetRGB4.c" />
+    <ClCompile Include="API\GetRPAttrA.c" />
+    <ClCompile Include="API\GetSprite.c" />
+    <ClCompile Include="API\GetVPModeID.c" />
+    <ClCompile Include="API\GfxAssociate.c" />
+    <ClCompile Include="API\GfxFree.c" />
+    <ClCompile Include="API\GfxLookUP.c" />
+    <ClCompile Include="API\GfxNew.c" />
+    <ClCompile Include="API\InitArea.c" />
+    <ClCompile Include="API\InitBitMap.c" />
+    <ClCompile Include="API\InitGels.c" />
+    <ClCompile Include="API\InitGMasks.c" />
+    <ClCompile Include="API\InitMasks.c" />
+    <ClCompile Include="API\InitRastPort.c" />
+    <ClCompile Include="API\InitTmpRas.c" />
+    <ClCompile Include="API\InitView.c" />
+    <ClCompile Include="API\InitViewPort.c" />
+    <ClCompile Include="API\InitVPort.c" />
+    <ClCompile Include="API\LoadRGB32.c" />
+    <ClCompile Include="API\LoadRGB4.c" />
+    <ClCompile Include="API\LoadView.c" />
+    <ClCompile Include="API\LoadViewPort.c" />
+    <ClCompile Include="API\LockLayerRom.c" />
+    <ClCompile Include="API\MakeVPort.c" />
+    <ClCompile Include="API\ModeNotAvailable.c" />
+    <ClCompile Include="API\Move.c" />
+    <ClCompile Include="API\MoveSprite.c" />
+    <ClCompile Include="API\MrgCop.c" />
+    <ClCompile Include="API\NewRegion.c" />
+    <ClCompile Include="API\NextDisplayInfo.c" />
+    <ClCompile Include="API\ObtainBestPenA.c" />
+    <ClCompile Include="API\ObtainPen.c" />
+    <ClCompile Include="API\OpenFont.c" />
+    <ClCompile Include="API\OpenMonitor.c" />
+    <ClCompile Include="API\OrRectRegion.c" />
+    <ClCompile Include="API\OrRegionRegion.c" />
+    <ClCompile Include="API\OwnBlitter.c" />
+    <ClCompile Include="API\PolyDraw.c" />
+    <ClCompile Include="API\QBlit.c" />
+    <ClCompile Include="API\QBSBlit.c" />
+    <ClCompile Include="API\ReadPixel.c" />
+    <ClCompile Include="API\ReadPixelArray8.c" />
+    <ClCompile Include="API\ReadPixelLine8.c" />
+    <ClCompile Include="API\RectFill.c" />
+    <ClCompile Include="API\ReleasePen.c" />
+    <ClCompile Include="API\RemBob.c" />
+    <ClCompile Include="API\RemFont.c" />
+    <ClCompile Include="API\RemIBob.c" />
+    <ClCompile Include="API\RemVSprite.c" />
+    <ClCompile Include="API\ScalerDiv.c" />
+    <ClCompile Include="API\ScrollRaster.c" />
+    <ClCompile Include="API\ScrollRasterBF.c" />
+    <ClCompile Include="API\ScrollVPort.c" />
+    <ClCompile Include="API\SetABPenDrMd.c" />
+    <ClCompile Include="API\SetAPen.c" />
+    <ClCompile Include="API\SetBPen.c" />
+    <ClCompile Include="API\SetChipRev.c" />
+    <ClCompile Include="API\SetCollision.c" />
+    <ClCompile Include="API\SetDrMd.c" />
+    <ClCompile Include="API\SetFont.c" />
+    <ClCompile Include="API\SetMaxPen.c" />
+    <ClCompile Include="API\SetOPen.c" />
+    <ClCompile Include="API\SetOutlinePen.c" />
+    <ClCompile Include="API\SetRast.c" />
+    <ClCompile Include="API\SetRGB32.c" />
+    <ClCompile Include="API\SetRGB32CM.c" />
+    <ClCompile Include="API\SetRGB4.c" />
+    <ClCompile Include="API\SetRGB4CM.c" />
+    <ClCompile Include="API\SetRPAttrA.c" />
+    <ClCompile Include="API\SetSoftStyle.c" />
+    <ClCompile Include="API\SetWriteMask.c" />
+    <ClCompile Include="API\SortGList.c" />
+    <ClCompile Include="API\StripFont.c" />
+    <ClCompile Include="API\SyncSBitMap.c" />
+    <ClCompile Include="API\Text.c" />
+    <ClCompile Include="API\TextExtent.c" />
+    <ClCompile Include="API\TextFit.c" />
+    <ClCompile Include="API\TextLength.c" />
+    <ClCompile Include="API\UnlockLayerRom.c" />
+    <ClCompile Include="API\VBeamPos.c" />
+    <ClCompile Include="API\VideoControl.c" />
+    <ClCompile Include="API\WaitBlit.c" />
+    <ClCompile Include="API\WaitBOVP.c" />
+    <ClCompile Include="API\WaitTOF.c" />
+    <ClCompile Include="API\WriteChunkyPixels.c" />
+    <ClCompile Include="API\WritePixel.c" />
+    <ClCompile Include="API\WritePixelArray8.c" />
+    <ClCompile Include="API\WritePixelLine8.c" />
+    <ClCompile Include="API\XorRectRegion.c" />
+    <ClCompile Include="API\XorRegionRegion.c" />
+    <ClCompile Include="bochs_vbe.c" />
+    <ClCompile Include="graphics.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bochs_vbe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\CINIT.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14814361-859E-4F72-A8F3-2A459F1E75F5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>graphicslibrary</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)Include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>ARCH_X86;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OmitFramePointers>
+      </OmitFramePointers>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling />
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4206</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

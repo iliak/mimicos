@@ -1,0 +1,7 @@
+#ifndef VIRTUAL_TERMINAL
+#define	VIRTUAL_TERMINAL
+
+
+
+
+#endif // !VIRTUAL_TERMINAL

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{54050349-bdbe-4fbb-807e-c03b1fff9a26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api\AbortPkt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AddBuffers.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AddDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AddPart.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AddSegment.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AllocDosObject.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AssignAdd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AssignLate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AssignLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AssignPath.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\AttemptLockDosList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ChangeMode.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CheckSignal.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Cli.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CliInitNewcli.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CliInitRun.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Close.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CompareDates.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CreateDir.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CreateNewProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CreateProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\CurrentDir.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DateStamp.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DateToStr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Delay.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DeleteFile.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DeleteVar.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DeviceProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DoPkt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DupLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\DupLockFromFH.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\EndNotify.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ErrorReport.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ExAll.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ExAllEnd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Examine.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ExamineFH.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Execute.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Exit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ExNext.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Fault.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FGetC.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FGets.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FilePart.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FindArg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FindCliProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FindDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FindSegment.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FindVar.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Flush.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Format.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FPutC.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FPuts.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FRead.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FreeArgs.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FreeDeviceProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FreeDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FreeDosObject.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\FWrite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetArgStr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetConsoleTask.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetCurrentDirName.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetDeviceProc.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetFileSysTask.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetProgramDir.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetProgramName.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetPrompt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\GetVar.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Info.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Inhibit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Input.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\InternalLoadSeg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\InternalUnLoadSeg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\IoErr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\IsFileSystem.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\IsInteractive.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\LoadSeg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Lock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\LockDosList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\LockRecord.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\LockRecords.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MakeDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MakeLink.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MatchEnd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MatchFirst.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MatchNext.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MatchPattern.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MatchPatternNoCase.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MaxCli.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\NameFromFH.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\NameFromLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\NewLoadSeg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\NextDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Open.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\OpenFromLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Output.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ParentDir.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ParentOfFH.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ParsePattern.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ParsePatternNoCase.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\PathPart.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\PrintFault.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\PutStr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Read.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ReadArgs.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ReadItem.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ReadLink.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Relabel.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\RemAssignList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\RemDosEntry.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\RemSegment.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Rename.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\ReplyPkt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\RunCommand.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SameDevice.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SameLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Seek.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SelectInput.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SelectOutput.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SendPkt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetArgStr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetComment.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetConsoleTask.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetCurrentDirName.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetFileDate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetFileSize.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetFileSysTask.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetIoErr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetMode.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetOwner.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetProgramDir.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetProgramName.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetPrompt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetProtection.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetVar.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SetVBuf.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SplitName.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\StartNotify.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\StrToDate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\StrToLong.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\SystemTagList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnGetC.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnLoadSeg.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnLock.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnLockDosList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnLockRecord.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\UnLockRecords.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\VFPrintf.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\VFWritef.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\VPrintf.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\WaitForChar.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\WaitPkt.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\Write.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="api\WriteChars.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="dos.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

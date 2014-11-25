@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="string\strxfrm.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strtok.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strstr.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strspn.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strrchr.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strpbrk.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strnlen.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strncpy.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strncmp.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strncat.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strlen.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strcsnp.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strcpy.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strcmp.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strchr.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\strcat.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memsetw.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memset.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memmove.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memcpy.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memcmp.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\memchr.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\realloc.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\malloc.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\itoa_s.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\itoa.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\free.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\exit.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\calloc.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\atexit.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\abort.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_purecall_handler.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_initterm.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_ftol2_sse.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_exit_.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_CIsqrt.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_CIsin.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_CIcos.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_atexit_init.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\_atexit.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio\atoi.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio\sprintf.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio\strtol.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio\strtoul.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio\vsprintf.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib\crt.c">
+      <Filter>stdlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="string">
+      <UniqueIdentifier>{18d47d8e-2493-4c52-a7df-bfcb31fffe4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdlib">
+      <UniqueIdentifier>{c096fe7f-5875-4d4f-8f32-cf8bc0447fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdio">
+      <UniqueIdentifier>{4a305be5-9a99-4abf-9975-89bd171482d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

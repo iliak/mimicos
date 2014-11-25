@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{ebbf7b82-ef71-4f24-9551-0e993f5e2105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Screens">
+      <UniqueIdentifier>{25cba8ce-0238-4b41-90f7-541bd480f332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Windows">
+      <UniqueIdentifier>{40a33285-f6d4-4997-ae6b-9834f963285a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Gadgets">
+      <UniqueIdentifier>{81fe57cb-713e-47cf-be63-fc5a8be6e4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Menus">
+      <UniqueIdentifier>{f9ce0dd1-2867-457b-a2dd-9eef17629222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Requesters &amp; Alerts">
+      <UniqueIdentifier>{27978193-26d8-4cba-8a50-18eb16834ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Image, Line drawing &amp; Text">
+      <UniqueIdentifier>{dda3f46a-20f6-482e-ad99-036cea9c722f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Input &amp; Output">
+      <UniqueIdentifier>{3f13cf1b-e258-4f00-a6ce-994184172bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Mouse &amp; Keyboard">
+      <UniqueIdentifier>{2013c2f5-3e4d-440c-a8cf-92c72446f461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Special functions">
+      <UniqueIdentifier>{453f8fb3-a881-469e-bac1-9fb6cf7b2519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Preferences">
+      <UniqueIdentifier>{e5d186b2-0b1c-4e4f-889c-bd848130e1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Icons">
+      <UniqueIdentifier>{41bf71eb-9c38-49b2-a21a-ff6a32fcdd06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="intuition.c" />
+    <ClCompile Include="api/ActivateGadget.c" />
+    <ClCompile Include="api/ActivateWindow.c" />
+    <ClCompile Include="api/AddAppIcon.c" />
+    <ClCompile Include="api/AddAppMenuItem.c" />
+    <ClCompile Include="api/AddAppWindow.c" />
+    <ClCompile Include="api/AddGadget.c" />
+    <ClCompile Include="api/AddGList.c" />
+    <ClCompile Include="api/AllocIFF.c" />
+    <ClCompile Include="api/AutoRequest.c" />
+    <ClCompile Include="api/BeginRefresh.c" />
+    <ClCompile Include="api/BuildEasyRequest.c" />
+    <ClCompile Include="api/BuildEasyRequestArgs.c" />
+    <ClCompile Include="api/BuildSysRequest.c" />
+    <ClCompile Include="api/ChangeWindowBox.c" />
+    <ClCompile Include="api/ClearDMRequest.c" />
+    <ClCompile Include="api/ClearMenuStrip.c" />
+    <ClCompile Include="api/ClearPointer.c" />
+    <ClCompile Include="api/CloseIFF.c" />
+    <ClCompile Include="api/CloseScreen.c" />
+    <ClCompile Include="api/CloseWindow.c" />
+    <ClCompile Include="api/CloseWorkbench.c" />
+    <ClCompile Include="api/CurrentChunk.c" />
+    <ClCompile Include="api/CurrentTime.c" />
+    <ClCompile Include="api/DisplayAlert.c" />
+    <ClCompile Include="api/DoubleClick.c" />
+    <ClCompile Include="api/DrawBorder.c" />
+    <ClCompile Include="api/DrawImage.c" />
+    <ClCompile Include="api/EasyRequest.c" />
+    <ClCompile Include="api/EasyRequestArgs.c" />
+    <ClCompile Include="api/EndNotify.c" />
+    <ClCompile Include="api/EndRefresh.c" />
+    <ClCompile Include="api/EndRequest.c" />
+    <ClCompile Include="api/FindProp.c" />
+    <ClCompile Include="api/FreeIFF.c" />
+    <ClCompile Include="api/FreeScreenDrawInfo.c" />
+    <ClCompile Include="api/FreeSysRequest.c" />
+    <ClCompile Include="api/GetDefaultPubScreen.c" />
+    <ClCompile Include="api/GetDefPrefs.c" />
+    <ClCompile Include="api/GetPrefs.c" />
+    <ClCompile Include="api/GetScreenData.c" />
+    <ClCompile Include="api/GetScreenDrawInfo.c" />
+    <ClCompile Include="api/InitFFasDOS.c" />
+    <ClCompile Include="api/InitRequester.c" />
+    <ClCompile Include="api/IntuiTextLength.c" />
+    <ClCompile Include="api/ItemAddress.c" />
+    <ClCompile Include="api/LockIBase.c" />
+    <ClCompile Include="api/LockPubScreen.c" />
+    <ClCompile Include="api/LockPubScreenList.c" />
+    <ClCompile Include="api/MakeScreen.c" />
+    <ClCompile Include="api/ModifyIDCMP.c" />
+    <ClCompile Include="api/ModifyProp.c" />
+    <ClCompile Include="api/MoveScreen.c" />
+    <ClCompile Include="api/MoveWindow.c" />
+    <ClCompile Include="api/MoveWindowInFontOf.c" />
+    <ClCompile Include="api/NewModifyProp.c" />
+    <ClCompile Include="api/NextPubScreen.c" />
+    <ClCompile Include="api/OffGadget.c" />
+    <ClCompile Include="api/OffMenu.c" />
+    <ClCompile Include="api/OnGadget.c" />
+    <ClCompile Include="api/OnMenu.c" />
+    <ClCompile Include="api/OpenScreen.c" />
+    <ClCompile Include="api/OpenScreenTagList.c" />
+    <ClCompile Include="api/OpenWindowTagList.c" />
+    <ClCompile Include="api/OpenWindowTags.c" />
+    <ClCompile Include="api/OpenWorkbench.c" />
+    <ClCompile Include="api/ParseIFF.c" />
+    <ClCompile Include="api/PrintIText.c" />
+    <ClCompile Include="api/PropChunk.c" />
+    <ClCompile Include="api/PubScreenStatus.c" />
+    <ClCompile Include="api/RefreshGadgets.c" />
+    <ClCompile Include="api/RefreshGList.c" />
+    <ClCompile Include="api/RefreshWindoFrame.c" />
+    <ClCompile Include="api/RemakeDisplay.c" />
+    <ClCompile Include="api/RemoveAppIcon.c" />
+    <ClCompile Include="api/RemoveAppMenuItem.c" />
+    <ClCompile Include="api/RemoveAppWindow.c" />
+    <ClCompile Include="api/RemoveGadget.c" />
+    <ClCompile Include="api/RemoveGList.c" />
+    <ClCompile Include="api/ReportMouse.c" />
+    <ClCompile Include="api/Request.c" />
+    <ClCompile Include="api/ResetMenuStrip.c" />
+    <ClCompile Include="api/RethinkDisplay.c" />
+    <ClCompile Include="api/ScreenToBack.c" />
+    <ClCompile Include="api/ScreenToFront.c" />
+    <ClCompile Include="api/SetDefaultPubScreen.c" />
+    <ClCompile Include="api/SetDMRequest.c" />
+    <ClCompile Include="api/SetEditHook.c" />
+    <ClCompile Include="api/SetMenuStrip.c" />
+    <ClCompile Include="api/SetMouseQueue.c" />
+    <ClCompile Include="api/SetPointer.c" />
+    <ClCompile Include="api/SetPrefs.c" />
+    <ClCompile Include="api/SetPubScreenModes.c" />
+    <ClCompile Include="api/SetWindowTitles.c" />
+    <ClCompile Include="api/ShowTitle.c" />
+    <ClCompile Include="api/SizeWindow.c" />
+    <ClCompile Include="api/StartNotify.c" />
+    <ClCompile Include="api/SysReqHandler.c" />
+    <ClCompile Include="api/UnlockIBase.c" />
+    <ClCompile Include="api/UnlockPubScreen.c" />
+    <ClCompile Include="api/UnlockPubScreenList.c" />
+    <ClCompile Include="api/ViewAdress.c" />
+    <ClCompile Include="api/ViewPortAdress.c" />
+    <ClCompile Include="api/WBenchToBack.c" />
+    <ClCompile Include="api/WindowLimits.c" />
+    <ClCompile Include="api/WindowToBack.c" />
+    <ClCompile Include="api/WindowToFront.c" />
+    <ClCompile Include="api/ZipWindow.c" />
+    <ClCompile Include="api\AllocScreenBuffer.c" />
+    <ClCompile Include="api\ChangeScreenBuffer.c" />
+    <ClCompile Include="api\FreeScreenBuffer.c" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{520F8072-F995-4C60-9F50-BD300F913D7F}</ProjectGuid>
+    <ProjectName>libc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <OmitFramePointers>
+      </OmitFramePointers>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ARCH_X86;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <UseUnicodeForAssemblerListing>
+      </UseUnicodeForAssemblerListing>
+    </ClCompile>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="stdio\sprintf.c" />
+    <ClCompile Include="stdlib\crt.c" />
+    <ClCompile Include="stdlib\_exit_.c" />
+    <ClCompile Include="stdlib\_atexit.c" />
+    <ClCompile Include="stdlib\_atexit_init.c" />
+    <ClCompile Include="stdlib\_CIcos.c" />
+    <ClCompile Include="stdlib\_CIsin.c" />
+    <ClCompile Include="stdlib\_CIsqrt.c" />
+    <ClCompile Include="stdlib\_ftol2_sse.c" />
+    <ClCompile Include="stdlib\_initterm.c" />
+    <ClCompile Include="stdlib\_purecall_handler.c" />
+    <ClCompile Include="stdlib\atexit.c" />
+    <ClCompile Include="stdlib\calloc.c" />
+    <ClCompile Include="stdlib\exit.c" />
+    <ClCompile Include="stdlib\free.c" />
+    <ClCompile Include="stdlib\itoa.c" />
+    <ClCompile Include="stdlib\itoa_s.c" />
+    <ClCompile Include="stdlib\malloc.c" />
+    <ClCompile Include="stdlib\realloc.c" />
+    <ClCompile Include="stdio\atoi.c" />
+    <ClCompile Include="stdio\strtol.c" />
+    <ClCompile Include="stdio\strtoul.c" />
+    <ClCompile Include="stdio\vsprintf.c" />
+    <ClCompile Include="stdlib\abort.c" />
+    <ClCompile Include="string\memchr.c" />
+    <ClCompile Include="string\memcmp.c" />
+    <ClCompile Include="string\memcpy.c" />
+    <ClCompile Include="string\memmove.c" />
+    <ClCompile Include="string\memset.c" />
+    <ClCompile Include="string\memsetw.c" />
+    <ClCompile Include="string\strchr.c" />
+    <ClCompile Include="string\strcmp.c" />
+    <ClCompile Include="string\strcpy.c" />
+    <ClCompile Include="string\strcsnp.c" />
+    <ClCompile Include="string\strlen.c" />
+    <ClCompile Include="string\strcat.c" />
+    <ClCompile Include="string\strncat.c" />
+    <ClCompile Include="string\strncmp.c" />
+    <ClCompile Include="string\strncpy.c" />
+    <ClCompile Include="string\strnlen.c" />
+    <ClCompile Include="string\strpbrk.c" />
+    <ClCompile Include="string\strrchr.c" />
+    <ClCompile Include="string\strspn.c" />
+    <ClCompile Include="string\strstr.c" />
+    <ClCompile Include="string\strtok.c" />
+    <ClCompile Include="string\strxfrm.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

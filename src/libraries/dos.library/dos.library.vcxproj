@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api\AbortPkt.c" />
+    <ClCompile Include="api\AddBuffers.c" />
+    <ClCompile Include="api\AddDosEntry.c" />
+    <ClCompile Include="api\AddPart.c" />
+    <ClCompile Include="api\AddSegment.c" />
+    <ClCompile Include="api\AllocDosObject.c" />
+    <ClCompile Include="api\AssignAdd.c" />
+    <ClCompile Include="api\AssignLate.c" />
+    <ClCompile Include="api\AssignLock.c" />
+    <ClCompile Include="api\AssignPath.c" />
+    <ClCompile Include="api\AttemptLockDosList.c" />
+    <ClCompile Include="api\ChangeMode.c" />
+    <ClCompile Include="api\CheckSignal.c" />
+    <ClCompile Include="api\Cli.c" />
+    <ClCompile Include="api\CliInitNewcli.c" />
+    <ClCompile Include="api\CliInitRun.c" />
+    <ClCompile Include="api\Close.c" />
+    <ClCompile Include="api\CompareDates.c" />
+    <ClCompile Include="api\CreateDir.c" />
+    <ClCompile Include="api\CreateNewProc.c" />
+    <ClCompile Include="api\CreateProc.c" />
+    <ClCompile Include="api\CurrentDir.c" />
+    <ClCompile Include="api\DateStamp.c" />
+    <ClCompile Include="api\DateToStr.c" />
+    <ClCompile Include="api\Delay.c" />
+    <ClCompile Include="api\DeleteFile.c" />
+    <ClCompile Include="api\DeleteVar.c" />
+    <ClCompile Include="api\DeviceProc.c" />
+    <ClCompile Include="api\DoPkt.c" />
+    <ClCompile Include="api\DupLock.c" />
+    <ClCompile Include="api\DupLockFromFH.c" />
+    <ClCompile Include="api\EndNotify.c" />
+    <ClCompile Include="api\ErrorReport.c" />
+    <ClCompile Include="api\ExAll.c" />
+    <ClCompile Include="api\ExAllEnd.c" />
+    <ClCompile Include="api\Examine.c" />
+    <ClCompile Include="api\ExamineFH.c" />
+    <ClCompile Include="api\Execute.c" />
+    <ClCompile Include="api\Exit.c" />
+    <ClCompile Include="api\ExNext.c" />
+    <ClCompile Include="api\Fault.c" />
+    <ClCompile Include="api\FGetC.c" />
+    <ClCompile Include="api\FGets.c" />
+    <ClCompile Include="api\FilePart.c" />
+    <ClCompile Include="api\FindArg.c" />
+    <ClCompile Include="api\FindCliProc.c" />
+    <ClCompile Include="api\FindDosEntry.c" />
+    <ClCompile Include="api\FindSegment.c" />
+    <ClCompile Include="api\FindVar.c" />
+    <ClCompile Include="api\Flush.c" />
+    <ClCompile Include="api\Format.c" />
+    <ClCompile Include="api\FPutC.c" />
+    <ClCompile Include="api\FPuts.c" />
+    <ClCompile Include="api\FRead.c" />
+    <ClCompile Include="api\FreeArgs.c" />
+    <ClCompile Include="api\FreeDeviceProc.c" />
+    <ClCompile Include="api\FreeDosEntry.c" />
+    <ClCompile Include="api\FreeDosObject.c" />
+    <ClCompile Include="api\FWrite.c" />
+    <ClCompile Include="api\GetArgStr.c" />
+    <ClCompile Include="api\GetConsoleTask.c" />
+    <ClCompile Include="api\GetCurrentDirName.c" />
+    <ClCompile Include="api\GetDeviceProc.c" />
+    <ClCompile Include="api\GetFileSysTask.c" />
+    <ClCompile Include="api\GetProgramDir.c" />
+    <ClCompile Include="api\GetProgramName.c" />
+    <ClCompile Include="api\GetPrompt.c" />
+    <ClCompile Include="api\GetVar.c" />
+    <ClCompile Include="api\Info.c" />
+    <ClCompile Include="api\Inhibit.c" />
+    <ClCompile Include="api\Input.c" />
+    <ClCompile Include="api\InternalLoadSeg.c" />
+    <ClCompile Include="api\InternalUnLoadSeg.c" />
+    <ClCompile Include="api\IoErr.c" />
+    <ClCompile Include="api\IsFileSystem.c" />
+    <ClCompile Include="api\IsInteractive.c" />
+    <ClCompile Include="api\LoadSeg.c" />
+    <ClCompile Include="api\Lock.c" />
+    <ClCompile Include="api\LockDosList.c" />
+    <ClCompile Include="api\LockRecord.c" />
+    <ClCompile Include="api\LockRecords.c" />
+    <ClCompile Include="api\MakeDosEntry.c" />
+    <ClCompile Include="api\MakeLink.c" />
+    <ClCompile Include="api\MatchEnd.c" />
+    <ClCompile Include="api\MatchFirst.c" />
+    <ClCompile Include="api\MatchNext.c" />
+    <ClCompile Include="api\MatchPattern.c" />
+    <ClCompile Include="api\MatchPatternNoCase.c" />
+    <ClCompile Include="api\MaxCli.c" />
+    <ClCompile Include="api\NameFromFH.c" />
+    <ClCompile Include="api\NameFromLock.c" />
+    <ClCompile Include="api\NewLoadSeg.c" />
+    <ClCompile Include="api\NextDosEntry.c" />
+    <ClCompile Include="api\Open.c" />
+    <ClCompile Include="api\OpenFromLock.c" />
+    <ClCompile Include="api\Output.c" />
+    <ClCompile Include="api\ParentDir.c" />
+    <ClCompile Include="api\ParentOfFH.c" />
+    <ClCompile Include="api\ParsePattern.c" />
+    <ClCompile Include="api\ParsePatternNoCase.c" />
+    <ClCompile Include="api\PathPart.c" />
+    <ClCompile Include="api\PrintFault.c" />
+    <ClCompile Include="api\PutStr.c" />
+    <ClCompile Include="api\Read.c" />
+    <ClCompile Include="api\ReadArgs.c" />
+    <ClCompile Include="api\ReadItem.c" />
+    <ClCompile Include="api\ReadLink.c" />
+    <ClCompile Include="api\Relabel.c" />
+    <ClCompile Include="api\RemAssignList.c" />
+    <ClCompile Include="api\RemDosEntry.c" />
+    <ClCompile Include="api\RemSegment.c" />
+    <ClCompile Include="api\Rename.c" />
+    <ClCompile Include="api\ReplyPkt.c" />
+    <ClCompile Include="api\RunCommand.c" />
+    <ClCompile Include="api\SameDevice.c" />
+    <ClCompile Include="api\SameLock.c" />
+    <ClCompile Include="api\Seek.c" />
+    <ClCompile Include="api\SelectInput.c" />
+    <ClCompile Include="api\SelectOutput.c" />
+    <ClCompile Include="api\SendPkt.c" />
+    <ClCompile Include="api\SetArgStr.c" />
+    <ClCompile Include="api\SetComment.c" />
+    <ClCompile Include="api\SetConsoleTask.c" />
+    <ClCompile Include="api\SetCurrentDirName.c" />
+    <ClCompile Include="api\SetFileDate.c" />
+    <ClCompile Include="api\SetFileSize.c" />
+    <ClCompile Include="api\SetFileSysTask.c" />
+    <ClCompile Include="api\SetIoErr.c" />
+    <ClCompile Include="api\SetMode.c" />
+    <ClCompile Include="api\SetOwner.c" />
+    <ClCompile Include="api\SetProgramDir.c" />
+    <ClCompile Include="api\SetProgramName.c" />
+    <ClCompile Include="api\SetPrompt.c" />
+    <ClCompile Include="api\SetProtection.c" />
+    <ClCompile Include="api\SetVar.c" />
+    <ClCompile Include="api\SetVBuf.c" />
+    <ClCompile Include="api\SplitName.c" />
+    <ClCompile Include="api\StartNotify.c" />
+    <ClCompile Include="api\StrToDate.c" />
+    <ClCompile Include="api\StrToLong.c" />
+    <ClCompile Include="api\SystemTagList.c" />
+    <ClCompile Include="api\UnGetC.c" />
+    <ClCompile Include="api\UnLoadSeg.c" />
+    <ClCompile Include="api\UnLock.c" />
+    <ClCompile Include="api\UnLockDosList.c" />
+    <ClCompile Include="api\UnLockRecord.c" />
+    <ClCompile Include="api\UnLockRecords.c" />
+    <ClCompile Include="api\VFPrintf.c" />
+    <ClCompile Include="api\VFWritef.c" />
+    <ClCompile Include="api\VPrintf.c" />
+    <ClCompile Include="api\WaitForChar.c" />
+    <ClCompile Include="api\WaitPkt.c" />
+    <ClCompile Include="api\Write.c" />
+    <ClCompile Include="api\WriteChars.c" />
+    <ClCompile Include="dos.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D507604D-BF1D-4F6C-89D5-6503507EFF22}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>doslibrary</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)Include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OmitFramePointers />
+      <DisableSpecificWarnings>4206</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

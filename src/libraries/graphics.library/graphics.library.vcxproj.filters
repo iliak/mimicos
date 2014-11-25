@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{d650def4-baf3-4f52-9618-f584fd6c797b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Setup functions">
+      <UniqueIdentifier>{d8e9542f-f48d-4d52-a09e-44a0fd1aebd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Display">
+      <UniqueIdentifier>{e566fd91-9d90-4675-b751-bcbf08eb1794}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API\AddAnimOb.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AddBob.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AddFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AddVSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AllocBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AllocDBufInfo.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AllocRaster.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AllocSpriteDataA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AndRectRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AndRegionRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Animate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AreaCircle.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AreaDraw.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AreaEllipse.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AreaEnd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AreaMove.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AskFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AskSoftStyle.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AttachPalExtra.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AttemptLockLayerRom.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BestModeIDA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BitMapScale.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltBitMapRastPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltClear.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltMaskBitMapRastPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltPattern.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\BltTemplate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CalcIVG.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CBump.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CEND.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ChangeExtSpriteA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ChangeSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ChangeVPBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ClearEOL.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ClearRectRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ClearRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ClipBlit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CloseFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CloseMonitor.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CMOVE.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CoerceMode.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CopySBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CWAIT.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\DisownBlitter.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\DisposeRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\DoCollision.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Draw.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\DrawEllipse.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\DrawGList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\EraseRect.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ExtendFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FindColor.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FindDisplayInfo.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Flood.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FontExtent.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeColorMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeCopList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeCprList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeDBufInfo.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeGBuffers.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeRaster.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeSpriteData.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FreeVPortCopLists.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetAPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetBitMapAttr.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetBPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetColorMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetDisplayInfoData.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetDrMd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetExtSpriteA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetGBuffers.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetOPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetRGB4.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetRGB32.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetRPAttrA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GetVPModeID.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GfxAssociate.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GfxFree.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GfxLookUP.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\GfxNew.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitArea.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitGels.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitGMasks.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitMasks.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitRastPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitTmpRas.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitView.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitVPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\LoadRGB4.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\LoadRGB32.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\LoadView.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\LockLayerRom.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\MakeVPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ModeNotAvailable.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Move.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\MoveSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\MrgCop.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\NewRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\NextDisplayInfo.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ObtainBestPenA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ObtainPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\OpenFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\OpenMonitor.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\OrRectRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\OrRegionRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\OwnBlitter.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\PolyDraw.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\QBlit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\QBSBlit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ReadPixel.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ReadPixelArray8.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ReadPixelLine8.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\RectFill.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ReleasePen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\RemBob.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\RemFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\RemIBob.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\RemVSprite.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ScalerDiv.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ScrollRaster.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ScrollRasterBF.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ScrollVPort.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetABPenDrMd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetAPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetBPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetChipRev.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetCollision.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetDrMd.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetMaxPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetOPen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetOutlinePen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRast.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRGB4.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRGB4CM.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRGB32.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRGB32CM.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetRPAttrA.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetSoftStyle.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SetWriteMask.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SortGList.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\StripFont.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\SyncSBitMap.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Text.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\TextExtent.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\TextFit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\TextLength.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\UnlockLayerRom.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\VBeamPos.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\VideoControl.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WaitBlit.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WaitBOVP.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WaitTOF.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WriteChunkyPixels.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WritePixel.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WritePixelArray8.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\WritePixelLine8.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\XorRectRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\XorRegionRegion.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="bochs_vbe.c" />
+    <ClCompile Include="graphics.c" />
+    <ClCompile Include="API\ClearScreen.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InitViewPort.c">
+      <Filter>API\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="API\LoadViewPort.c">
+      <Filter>API\Display</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bochs_vbe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\CINIT.cpp">
+      <Filter>API</Filter>
+    </None>
+  </ItemGroup>
+</Project>

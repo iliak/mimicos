@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{f10832cf-420c-49d9-a0cd-53adeee0f785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\exec">
+      <UniqueIdentifier>{fcc41368-5e0c-4f8c-ae15-2a7d5d7c32e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\stdlib">
+      <UniqueIdentifier>{b0f3af2b-8e40-4d9d-91d4-3e339818377a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\Kernel\exec\AddHead.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\RemTail.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\AddTail.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\Enqueue.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\FindName.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\Insert.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\NewList.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\RemHead.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Kernel\exec\Remove.cpp">
+      <Filter>Fichiers sources\exec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lib\string\strcmp.cpp">
+      <Filter>Fichiers sources\stdlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
